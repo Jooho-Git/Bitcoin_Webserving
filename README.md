@@ -28,7 +28,7 @@
 
 # Usage
 ## 0. Create virtual environment
-서비스를 실행하기 위한 가상환경을 생성합니다.     
+Create a virtual environment to run the service.    
 python >= 3.8.1 
 ```
 pyenv virtualenv bigscoin-web
