@@ -18,7 +18,7 @@ st.write('')
 col1, col2 = st.columns([1,1])
 
 col1.markdown("## Motivation")
-col1.write("주식 및 코인 투자자들은 차트에서 발생되는 패턴 중 매매하기 적합한 시점의 패턴을 관측하며 투자를 진행합니다. **BIGSCOIN은 매매에 적합한 패턴이 등장하는 것을 자동으로 감지하여** 투자자에게 유용한 정보를 제공합니다.")
+col1.write("Stock and cryptocurrency investors often look for chart patterns that signal favorable trading opportunities. **BIGSCOIN automatically detects the emergence of such patterns** and provides investors with valuable insights.")
 st.write('')
 
 col2.markdown("## Dataset")
@@ -51,5 +51,6 @@ st.write(" Developed By ToBigs 16&17 Time Series & XAI Team  \n  ###### 김권�
 # col2.write("##### 박한나")
 # col3.write("##### 유현우")
 # col4.write("##### 이예림")
+
 
 
