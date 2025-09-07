@@ -22,8 +22,9 @@ from utils import make_gradcam_heatmap, show_heatmap
 
 app = FastAPI()
 
-yscaler = pickle.load(open('/Users/kim_yoonhye/Desktop/TS-컨퍼/github/WebServing/forecast/scaler.pkl', 'rb'))
-
+# yscaler = pickle.load(open('/Users/kim_yoonhye/Desktop/TS-컨퍼/github/WebServing/forecast/scaler.pkl', 'rb'))
+scaler_path = os.path.join(os.path.dirname(__file__), '../forecast/scaler.pkl')
+yscaler = pickle.load(open(scaler_path, 'rb'))
 
 def load_recognition_model():
     model = tf.keras.models.load_model('./recognition/Model.pt')
